@@ -6,10 +6,10 @@ module.exports = {
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 开关
   // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
   FIREWORKS_COLOR: [
-    '233, 197, 201',
-    '243, 238, 226',
-    '164, 199, 231',
-    '201, 184, 216'
+    '233,197,201',
+    '243,238,226',
+    '164,199,231',
+    '201,184,216'
   ],
 
   // 鼠标跟随特效
