@@ -6,7 +6,7 @@ module.exports = {
   // AI 聊天机器人相关配置已迁移至 conf/ai.config.js
 
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
@@ -30,7 +30,7 @@ module.exports = {
     {
       name: '晴天',
       artist: '周杰伦',
-      url: 'https://car-er.kuwo.cn/b08308d8b4646288d18c6cce3fd22b3a/6a885763/resource/30106/trackmedia/M500000bYDlc2XxKLs.mp3',
+      url: 'https://car-er.kuwo.cn/ffad6c427f45001e0739239f1e0fbf7a/6a8a3b2c/resource/30106/trackmedia/M500000bYDlc2XxKLs.mp3',
       cover:
         'https://img2.kuwo.cn/star/albumcover/120/s3s94/93/211513640.jpg'
     }
